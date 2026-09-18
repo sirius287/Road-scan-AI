@@ -10,7 +10,7 @@ Detects potholes and other road defects from images/video.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/pothole-drone.git
+git clone https://github.com/sirius287/pothole-drone.git
 cd pothole-drone
 ````
 
