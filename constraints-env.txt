@@ -1,0 +1,4 @@
+# Prevent the second installation step from changing the CUDA wheel pair.
+# These exact local versions come from the official PyTorch cu128 index.
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128

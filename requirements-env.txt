@@ -1,0 +1,9 @@
+# Phase 1.1 only. Install the pinned CUDA torch/torchvision pair FIRST.
+# Install this file with: -c constraints-env.txt -r requirements-env.txt
+ultralytics==8.4.154
+opencv-python==4.12.0.88
+numpy==2.2.6
+pandas==2.3.3
+PyYAML==6.0.3
+pytest==8.4.2
+psutil==7.2.2

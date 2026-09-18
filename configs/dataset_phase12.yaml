@@ -1,0 +1,39 @@
+schema_version: 1
+source_id: uav_pdd2023_v4
+title: 'UAV-PDD2023: A benchmark dataset for pavement distress detection based on UAV images'
+creators: ['HaoHui Yan', 'JunFei Zhang']
+record_id: 8429208
+version: v4
+record_url: 'https://zenodo.org/records/8429208'
+metadata_url: 'https://zenodo.org/api/records/8429208'
+doi: '10.5281/zenodo.8429208'
+license_id: CC-BY-4.0
+license_url: 'https://creativecommons.org/licenses/by/4.0/'
+archive_name: UAV-PDD2023.zip
+archive_url: 'https://zenodo.org/records/8429208/files/UAV-PDD2023.zip?download=1'
+archive_md5: '0745d017ce2dce23bd73944e9b0acec7'
+publisher_reported_not_locally_measured:
+  image_count: 2440
+  object_count: 11158
+  archive_size_approx_decimal_gb: 2.1
+  capture_altitude_m: 30
+classes:
+  0: pothole
+  1: crack
+# Explicit aliases only. Matching ignores case and repeated whitespace, not meaning.
+# Any new, misspelled, numerical, or ambiguous label is quarantined, never guessed.
+label_aliases:
+  pothole: [PH, Pothole, Potholes]
+  crack: [LC, TC, AC, OC, 'Longitudinal crack', 'Transverse crack', 'Alligator crack', 'Oblique crack']
+  non_target_repair: [RP, Repair, Patching, Patch]
+policies:
+  images_with_repairs: quarantine
+  empty_annotations: quarantine
+  missing_annotations: quarantine
+  difficult_objects: quarantine
+  unknown_labels: quarantine
+  invalid_boxes: quarantine_whole_image
+  duplicate_annotation_conflicts: quarantine_whole_group
+  equivalent_exact_duplicates: keep_one
+# The downloader obtains exact bytes from live metadata, not the approximate size above.
+# No batch size, training settings, or train/val/test paths are defined here.

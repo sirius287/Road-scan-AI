@@ -1,0 +1,23 @@
+{
+  "status": "CODE_FIXTURE_TESTS_PASS_NOT_A_REAL_DATASET_AUDIT",
+  "tests_passed": 28,
+  "tests_failed": 0,
+  "tests": "tests/test_phase12_dataset.py",
+  "runtime": {
+    "os": "Linux",
+    "python": "3.13.5",
+    "opencv": "4.13.0",
+    "numpy": "2.3.5",
+    "pyyaml": "6.0.3",
+    "pytest": "9.0.2"
+  },
+  "real_road_dataset_downloaded": false,
+  "real_dataset_image_count_measured": null,
+  "gpu_used": false,
+  "training_started": false,
+  "limitations": [
+    "Tests ran in a non-Windows authoring environment, not the user laptop.",
+    "Network tests use mocked HTTP responses; a live download was not completed.",
+    "No model quality or production-camera capability is established."
+  ]
+}

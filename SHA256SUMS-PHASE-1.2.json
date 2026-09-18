@@ -1,0 +1,15 @@
+{
+  "README-PHASE-1.2.md": "294ba20403b1e2e3f25965adde1d34ab4009777a306c052308670bea414b596d",
+  "configs/dataset_phase12.yaml": "0856b72f04d55af212e01fb0e603bfa57454e6ae00091a9579b5a9a223a90bd1",
+  "dataset_tools/__init__.py": "c8c387db3ff5acfeb49d6459b5a5179dd9dadb462000d4fdfa80c8ec2deee9e7",
+  "dataset_tools/audit.py": "1def9648cbeb36b8e7b8d39b30c5d718773559ebac4bc2c0a4ba6663212986b9",
+  "dataset_tools/common.py": "52d9d6c7251c7fb0a40ea88f5e8462d20e3005bd4bf288ad9fb62577903484da",
+  "dataset_tools/download.py": "e53908f87b24e8b5f9469f825dc06e652cbb199aa596d79d54796760181d9fbd",
+  "dataset_tools/gate.py": "57fe3a458f8d78171bcf1a6cf55b5a97b8edae04a27d0cda16f5d33e0eeec43e",
+  "dataset_tools/prepare.py": "367ff0343ccc4c150b72e1c812f1d9ba7cbacfc949c40bb82708ed9cf259d37d",
+  "dataset_tools/similarity.py": "64bb6c2ce0943f16812334eefe7d0524faa8ca9f6083a5a979d047c69b33602d",
+  "dataset_tools/voc.py": "dee3d498bd031aa28d262624ec91818a5fff2e460ef595cf5a6849ca13a2c866",
+  "docs/PHASE12-SOURCE-REVIEW.md": "c4e267f2a9d622ab3b6fbca225aeda60a997cfdb31d4a1faf956e3f4a88128f2",
+  "docs/PHASE12-TEST-RESULTS.json": "9aa069e51b8b17b775fb0fee9be532a196274804b7629263e64b9b519e29dcc5",
+  "tests/test_phase12_dataset.py": "ffd5aa4ecf87996d1f245de0156784fd50ec8bce06ae375e5e5141c6005b1230"
+}

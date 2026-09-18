@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "C:\\Users\\saqib\\source\\pothole-drone\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "2d571f21443ec60adc800211d1f0ea4f92cc0bbfb1a07583f9267e5518327329",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

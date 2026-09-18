@@ -1,0 +1,18 @@
+.venv/
+.env
+.cache/
+runs/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Large datasets
+data/raw/
+data/processed/
+
+# Temporary files
+*.part
+*.tmp
+
+# Keep the trained model
+!pothole_best.pt

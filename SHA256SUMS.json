@@ -1,0 +1,9 @@
+{
+  "requirements-env.txt": "da9d58afa3036a2109c2109737215f3a4d118ae0a019a960a9f641e9562be42c",
+  ".gitignore": "a748fdf26180ae35b8f92f0580732e9bb72e5ff8ddcca07aae36a9123016a9c5",
+  "README-PHASE-1.1.md": "8ac4bbda932fd98e355b1a608b9cdcbedb0d8940b4d21ebe9cfffb119a14192f",
+  "constraints-env.txt": "21d0a5cd045fd27d8fd628888294e9afb464cb13a7c0875188b3362eba69dcaf",
+  "tests/test_environment_check.py": "bbed9485a42a0bceb74fccb41d30f8a5aeb7333035a3dce1ce62507435d01409",
+  "training/__init__.py": "6a48d127820e5706a23befdbdc77e8a26e265f9a2084e98548a93c4722f5a1de",
+  "training/check_environment.py": "13940c8d306858ea7f37502772c426159192278a579fcd89b63de66ecce5e4d2"
+}

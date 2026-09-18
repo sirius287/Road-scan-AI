@@ -1,0 +1,23 @@
+{
+  "test_status": "PASS",
+  "tests_passed": 70,
+  "existing_tests": 28,
+  "new_regression_cases": 42,
+  "command": "python -m pytest -q tests/test_phase12_dataset.py tests/test_download_patch.py",
+  "test_host": {
+    "os": "Linux",
+    "python": "3.13.5"
+  },
+  "windows_laptop_execution_verified": false,
+  "live_archive_download_verified": false,
+  "network_probe_result": "URLError: Temporary failure in name resolution",
+  "dataset_downloaded": false,
+  "dataset_training_started": false,
+  "note": "The original metadata fixture now uses the independently pinned byte size instead of 1024.",
+  "installer_checks": {
+    "fresh_install": "PASS",
+    "identical_reinstall_no_op": "PASS",
+    "custom_edit_refusal": "PASS",
+    "installed_package_regression_tests": "70 passed"
+  }
+}
